@@ -8062,6 +8062,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"kareem@npm:2.3.1":
+  version: 2.3.1
+  resolution: "kareem@npm:2.3.1"
+  checksum: 3a4d0649b6517f653ede8fcf046d05242b040f98b40efafb31889933b28021f5c2ae6f00f60ed4aaffc8a2e01a35429d7d99bb01320ecf4bd819a1c3e9ec1ae8
+  languageName: node
+  linkType: hard
+
 "kareem@npm:2.3.2":
   version: 2.3.2
   resolution: "kareem@npm:2.3.2"
@@ -9267,6 +9274,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mongodb@npm:3.6.2":
+  version: 3.6.2
+  resolution: "mongodb@npm:3.6.2"
+  dependencies:
+    bl: ^2.2.1
+    bson: ^1.1.4
+    denque: ^1.4.1
+    require_optional: ^1.0.1
+    safe-buffer: ^5.1.2
+    saslprep: ^1.0.0
+  dependenciesMeta:
+    saslprep:
+      optional: true
+  checksum: 7c7df06e3d08ac0fef30cbea59cc578127b032fb0ebc1e465528440d2fea45bbbe0728fff24580049e6c3b6a7a97984bee59a86b2547cd17ea49e6069be02278
+  languageName: node
+  linkType: hard
+
 "mongodb@npm:3.7.3":
   version: 3.7.3
   resolution: "mongodb@npm:3.7.3"
@@ -9297,12 +9321,49 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mongoose-float@npm:^1.0.4":
+  version: 1.0.4
+  resolution: "mongoose-float@npm:1.0.4"
+  peerDependencies:
+    mongoose: ">=4.x <=5.x"
+  checksum: ab18bd75bfaaf2d6aee9bfeddb38529f79487b1f28a966aa824c59e93f9a7b4f27741611308d31965607ff3bff49f532bfd09cc3b0284bbf69af610bdf6dd6de
+  languageName: node
+  linkType: hard
+
 "mongoose-legacy-pluralize@npm:1.0.2":
   version: 1.0.2
   resolution: "mongoose-legacy-pluralize@npm:1.0.2"
   peerDependencies:
     mongoose: "*"
   checksum: 8312c208824b8c2d9cd60562cbc06d0da54118ca5799dfacabc1aa0f41d9ee061b2e7877019bc9cf7204bd509de88e20158b08d98d98a459d8784af69b4d9f77
+  languageName: node
+  linkType: hard
+
+"mongoose-long@npm:^0.3.2":
+  version: 0.3.2
+  resolution: "mongoose-long@npm:0.3.2"
+  peerDependencies:
+    mongoose: 4.x || 5.x
+  checksum: 8f4d468b6e7c2ea43fc723bb030f0beb7ad33d4b8ae3161e783b8059887f6ae41bb1a5a848d0611b204242faef074ef962fc89389e15439e7edf7c798452aeff
+  languageName: node
+  linkType: hard
+
+"mongoose@npm:5.10.8":
+  version: 5.10.8
+  resolution: "mongoose@npm:5.10.8"
+  dependencies:
+    bson: ^1.1.4
+    kareem: 2.3.1
+    mongodb: 3.6.2
+    mongoose-legacy-pluralize: 1.0.2
+    mpath: 0.7.0
+    mquery: 3.2.2
+    ms: 2.1.2
+    regexp-clone: 1.0.0
+    safe-buffer: 5.2.1
+    sift: 7.0.1
+    sliced: 1.0.1
+  checksum: 8f1e7ae22d4e2a0aba09ca659809cfda53dfcd155c3a2ceb35793ef9463d6833ed5a40c8489f37671d27bfc17235fbbba87b2043e5ffa60cd99f428223daa893
   languageName: node
   linkType: hard
 
@@ -9342,10 +9403,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mpath@npm:0.7.0":
+  version: 0.7.0
+  resolution: "mpath@npm:0.7.0"
+  checksum: 8c6d296987b720f4b0489c6669edcc3bbf22c7917ed64b5349ccd6eeb73c06601766912a95735b8922884da34b45ea95c9092dea3372f5f20ee82a353070449c
+  languageName: node
+  linkType: hard
+
 "mpath@npm:0.8.4":
   version: 0.8.4
   resolution: "mpath@npm:0.8.4"
   checksum: 06ad1d443766626fa361b67a4eca9cd4c36a71e475e92e8a5c242dbbc9a911adac00ce971177843b48475356df609f847342548da7701a976a2ab4116135caf0
+  languageName: node
+  linkType: hard
+
+"mquery@npm:3.2.2":
+  version: 3.2.2
+  resolution: "mquery@npm:3.2.2"
+  dependencies:
+    bluebird: 3.5.1
+    debug: 3.1.0
+    regexp-clone: ^1.0.0
+    safe-buffer: 5.1.2
+    sliced: 1.0.1
+  checksum: a08f5a7e743294a915f1ed0005602519eb89ed75bc62fced6992cd8dfb277258ae41e8f49b59a027938605986cb7fc13884e82e19f57e39665c439dea2e5238c
   languageName: node
   linkType: hard
 
@@ -12009,6 +12090,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"require_optional@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "require_optional@npm:1.0.1"
+  dependencies:
+    resolve-from: ^2.0.0
+    semver: ^5.1.0
+  checksum: 64aed45ccff138e3e8abfa104de6f9bd324d27408228dbe0902049f586a2a80caf885e162b4724ee9dd5a2a0369987e8b5c5db86f5eb48a98a9f7c7d00b5c5a5
+  languageName: node
+  linkType: hard
+
 "requires-port@npm:^1.0.0":
   version: 1.0.0
   resolution: "requires-port@npm:1.0.0"
@@ -12048,6 +12139,13 @@ __metadata:
     expand-tilde: ^2.0.0
     global-modules: ^1.0.0
   checksum: ef736b8ed60d6645c3b573da17d329bfb50ec4e1d6c5ffd6df49e3497acef9226f9810ea6823b8ece1560e01dcb13f77a9f6180d4f242d00cc9a8f4de909c65c
+  languageName: node
+  linkType: hard
+
+"resolve-from@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "resolve-from@npm:2.0.0"
+  checksum: 02db4c30fecddef0efafbafb2d66b96c4a80f91d103d9850be3b85d1feb65b6af6c818d137dc546cea7d0288c21e13aa0fb4580af9af34b08052b3516690c5f3
   languageName: node
   linkType: hard
 
@@ -12387,7 +12485,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:^5.3.0, semver@npm:^5.4.1, semver@npm:^5.5.0, semver@npm:^5.6.0":
+"semver@npm:^5.1.0, semver@npm:^5.3.0, semver@npm:^5.4.1, semver@npm:^5.5.0, semver@npm:^5.6.0":
   version: 5.7.1
   resolution: "semver@npm:5.7.1"
   bin:
@@ -12666,6 +12764,13 @@ __metadata:
   version: 13.5.2
   resolution: "sift@npm:13.5.2"
   checksum: 31951836c464b995b25f888876dea9c58c7a3eaa419d2ed271776d55db2d1019c6438ee458047d3c16bc93f0a329366dc535dc3a6afc42038949dc2a6a548f61
+  languageName: node
+  linkType: hard
+
+"sift@npm:7.0.1":
+  version: 7.0.1
+  resolution: "sift@npm:7.0.1"
+  checksum: 530df355c1c368e5b99735d34afefff82b6c638809f100d00940e7672ab550a42132f99271d54866a3e743a699e011e48d7bf07c44409c26cf722820f6ab0d1a
   languageName: node
   linkType: hard
 
@@ -13045,6 +13150,7 @@ __metadata:
     strapi: 3.6.10
     strapi-admin: 3.6.10
     strapi-connector-bookshelf: 3.6.10
+    strapi-connector-mongoose: ^3.6.10
     strapi-plugin-content-manager: 3.6.10
     strapi-plugin-content-type-builder: 3.6.10
     strapi-plugin-email: 3.6.10
@@ -13177,6 +13283,22 @@ __metadata:
   peerDependencies:
     knex: 0.21.18
   checksum: c04d47021a86799e6a0991b19656b48f714edf5ffb0a62a56b21b58a718cb30f1c9549d5bb37c870d7a5907c125560217a80db73362927bfb03e9e9c5353ef02
+  languageName: node
+  linkType: hard
+
+"strapi-connector-mongoose@npm:^3.6.10":
+  version: 3.6.10
+  resolution: "strapi-connector-mongoose@npm:3.6.10"
+  dependencies:
+    lodash: 4.17.21
+    mongoose: 5.10.8
+    mongoose-float: ^1.0.4
+    mongoose-long: ^0.3.2
+    p-map: 4.0.0
+    pluralize: ^8.0.0
+    semver: ^7.3.5
+    strapi-utils: 3.6.10
+  checksum: 88e67b568a34fe556136726f023673a7c7d4680f3b3f094465e1c0b3a559da18a159b0f2bd0350e9b72aa03bbd56af2713b31cc9086c5be02755bd2d4d4745ae
   languageName: node
   linkType: hard
 
